@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0px;
+    padding: 0px;
+    hanging-punctuation: first last;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-wrap: none;
+}
+
+p{
+    max-width: 100ch;
+    text-wrap: pretty;
+}
