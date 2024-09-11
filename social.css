@@ -112,9 +112,6 @@ html{
     position: relative;
 }
 .img_bottom_desktop{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
     display: none;
 }
 
@@ -226,9 +223,11 @@ html{
     }
 
     .img_bottom_desktop{
-        display: block;
+        display: inline;
         z-index: -2;
-        border: 2px solid red;
-        
+        position: fixed;
+        right: 0px;
+        bottom: 0%;   
+        overflow: hidden;
     }
 }
